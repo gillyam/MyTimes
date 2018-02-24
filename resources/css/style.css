@@ -1,3 +1,5 @@
+/*Header section*/
+
 .header{
   font-family: Verdana;
   font-size: 14px;
@@ -13,4 +15,28 @@
 .nav{
 margin-left: auto;
 align-self: center;
+}
+
+/* Main Content */
+
+.main{
+  display: flex;
+}
+.left{
+  display: flex;
+  border: 1px solid black;
+  width: 630px;
+  flex-direction: column;
+}
+.middle{
+  display: flex;
+  border: 1px solid black;
+  width: 300px;
+  flex-direction: column;
+}
+.right{
+  display: flex;
+  border: 1px solid black;
+  width: 240px;
+  flex-direction: column;
 }
