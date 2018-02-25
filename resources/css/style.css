@@ -7,7 +7,7 @@
   display: flex;
   border-bottom: 1px solid black;
 }
-.logo{
+.logo {
   color: mediumaquamarine;
   border: 1px solid black;
   display: flex;
@@ -16,78 +16,72 @@
 }
 
 .nav{
-margin-left: auto;
-align-self: center;
-border: 1px solid black;
+
 }
 
 /* Main Content */
 
-.main{
+.maincontainer{
   display: flex;
+  padding-top: 50px;
+  justify-content: space-around;
   border: 1px solid black;
 }
-.left{
+.columnL{
   display: flex;
-  border: 1px solid black;
+  flex-wrap: wrap;
   width: 630px;
-  flex-direction: column;
   border: 1px solid black;
 }
-.middle{
+.columnC{
   display: flex;
-  border: 1px solid black;
+  flex-wrap: wrap;
   width: 300px;
-  flex-direction: column;
   border: 1px solid black;
 }
-.right{
+.columnR{
   display: flex;
-  border: 1px solid black;
+  flex-wrap: wrap;
+  align-content: flex-start;
   width: 240px;
-  flex-direction: column;
   border: 1px solid black;
 }
 /* story divs*/
 .story1{
-  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  background-image: url();
   border: 1px solid black;
+  flex-grow: 1;
+}
+.storytext{
 }
 .story2{
-    border: 1px solid black;
+  border: 1px solid black;
 }
 .story3{
-    border: 1px solid black;
+  border: 1px solid black;
+  flex-grow: 1;
 }
 .story4{
-  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
-  width: 299px;
-  height:300px;
   border: 1px solid black;
 }
 .story5{
-  background-image:url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
-  width:299px;
-  height:300px;
+  border: 1px solid black;
+  flex-grow: 1;
+}
+.story6{
+  border: 1px solid black;
+}
+.story7{
+  border: 1px solid black;
+  flex-grow: 1;
+}
+.story8{
   border: 1px solid black;
 }
 
 
 /*tags*/
-p{
-  font-family: Georgia;
-  font-size: 17px;
-  color: black;
-}
-.mainimage{
- font-family: Georgia;
- font-weight: bold;
- font-size: 40px;
- color: white;
-}
-.storyimage{
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
+.columnR img{
+  width: 240px;
+  height: 240px;
 }
